@@ -1,0 +1,350 @@
+/* section1 */
+.section1>.container>h2,.section1>.container>p{
+    text-align: center;
+}
+.section1>.container>p{
+    color: #919191;
+}
+.r1>div{
+    margin-top: 20px;
+    height: 190px;
+}
+.r1 div h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+.r1>div>a>div>p{
+    font-size: 12px;
+}
+.r1>div>a{
+    width: 80%;
+    height: 80%;
+}
+.r1>div>a:hover{
+    text-decoration: none;
+}
+.r1>div>a:focus{
+    text-decoration: none;
+}
+.r1>div>a>div{
+    transition: all 0.5s;
+}
+.r1>div>a>div:hover{
+    transform: translate(0,-5%);
+    box-shadow: 0 26px 40px -24px rgb(0 36 100 / 50%);
+}
+.r1>div:nth-child(1) a>div{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: #70c3ff;
+}
+.r1>div:nth-child(2) a>div{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: #fd6a7f;
+}
+.r1>div:nth-child(3) a>div{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: #7f8ea0;
+}
+.r1>div:nth-child(4) a>div{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: #89d04f;
+}
+.s1c1,.s1c2,.s1c3,.s1c4{
+    text-align: center;
+    height: 190px;
+}
+.s1i1,.s1i2,.s1i3,.s1i4{
+    text-align: center;
+}
+.s1i1 img{
+    width: 145px;
+    height: 60px;
+    margin-top: 5px;
+}
+.s1i2 img{
+    width: 160px;
+    height: 60px;
+    margin-top: 5px;
+}
+.s1i3 img{
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+}
+.s1i4 img{
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+}
+.more{
+    width: 105px;
+    height: 40px;
+    background-color: #e1e1e1;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+}
+.more:hover{
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+.more a{
+    line-height: 40px;
+    color: #616161;
+}
+.more a:hover{
+    color: #333333;
+    text-decoration: none;
+}
+
+/* section2 */
+.section2>.container>h2,.section2>.container>p{
+    text-align: center;
+}
+.section2>.container>p{
+    color: #919191;
+}
+.r2>div{
+    margin-top: 20px;
+    height: 215px;
+}
+.r2 div h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+.r2>div>a>div>p{
+    font-size: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.r2>div>a{
+    width: 80%;
+    height: 80%;
+}
+.r2>div>a:hover{
+    text-decoration: none;
+}
+.r2>div>a:focus{
+    text-decoration: none;
+}
+.r2>div>a>div{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.r2>div>a>div:hover{
+    transform: translate(0,-5%);
+    box-shadow: 0 26px 40px -24px rgb(0 36 100 / 50%);
+}
+.r2>div>a>div img{
+    transition: all 0.5s;
+}
+.r2>div>a>div:hover img{
+    transform: scale(1.2);
+}
+.r2>div:nth-child(1) a>div,.r2>div:nth-child(2) a>div,.r2>div:nth-child(3) a>div,.r2>div:nth-child(4) a>div{
+    width: 100%;
+    height: 100%;
+    color: #333333;
+}
+.s2c1,.s2c2,.s2c3,.s2c4{
+    text-align: center;
+    height: 215px;
+}
+.s2i1,.s2i2,.s2i3,.s2i4{
+    text-align: center;
+}
+.s2i1 img,.s2i2 img,.s2i3 img,.s2i4 img{
+    width: 100%;
+    height: 130px;
+}
+.more{
+    width: 105px;
+    height: 40px;
+    background-color: #e1e1e1;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+}
+.more:hover{
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+.more a{
+    line-height: 40px;
+    color: #616161;
+}
+.more a:hover{
+    color: #333333;
+    text-decoration: none;
+}
+
+/* section3 */
+.section3>.container>h2,.section3>.container>p{
+    text-align: center;
+}
+.section3>.container>p{
+    color: #919191;
+}
+.r3{
+    color: #616161;
+}
+.s3c1>div,.s3c2>div{
+    height: 400px;
+    border: 1px solid #e4ecf3;
+}
+.s3c1>div>h2,.s3c2>div>h2{
+    text-indent: 10px;
+    height: 50px;
+    border-bottom: 1px solid #e4ecf3;
+}
+.s3c1 .glyphicon,.s3c2 .glyphicon{
+    float: right;
+    margin-right: 10px;
+    color: #616161;
+}
+.s3c1 a{
+    height: 40px;
+    line-height: 40px;
+}
+.s3c1 a:hover h4{
+    color: #f2b535;
+}
+.s3c1 h4,.s3c1 span{
+    color: #616161;
+}
+.s3c1 h4{
+    width: 80%;
+    font-size: 14px;
+    text-indent: 10px;
+    line-height: 40px;
+    float: left;
+}
+.s3c1 span{
+    width: 20%;
+    padding-right: 10px;
+    line-height: 40px;
+    float: right;
+}
+.s3c2>div>div>div{
+    height: 100px;
+}
+.s3i{
+    width: 30%;
+    line-height: 100px;
+}
+.s3text{
+    width: 70%;
+    height: 74px;
+    margin-top: 13px;
+}
+.s3i,.s3text{
+    float: left;
+    cursor: pointer;
+}
+.s3i img{
+    width: 100%;
+    height: 100%;
+}
+.s3text h2{
+    font-size: 16px;
+}
+.s3text h2:hover{
+    color: #f2b535;
+}
+.s3text p{
+    font-size: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* section4 */
+.section4>.container>h2,.section4>.container>p{
+    text-align: center;
+}
+.section4>.container>p{
+    color: #919191;
+}
+.r4>div{
+    margin-top: 20px;
+    height: 280px;
+}
+.r4 div h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 40px;
+}
+.r4>div>div>p{
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: #919191;
+    background-color: white;
+}
+.r4>div>div{
+    border: 1px solid #e4ecf3;
+    background-color: #f5f8fa;
+}
+.r4>div>div{
+    transition: all 0.5s;
+}
+.r4>div>div:hover{
+    transform: translate(0,-5%);
+    box-shadow: 0 26px 40px -24px rgb(0 36 100 / 50%);
+}
+.s4c1,.s4c2,.s4c3{
+    text-align: center;
+    height: 280px;
+}
+.s4i1,.s4i2,.s4i3{
+    height: 150px;
+    text-align: center;
+}
+.s4i1 img,.s4i2 img,.s4i3 img{
+    width: 120px;
+    height: 120px;
+    margin-top: 15px;
+    border-radius: 60px;
+}
+.more{
+    width: 105px;
+    height: 40px;
+    background-color: #e1e1e1;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+}
+.more:hover{
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+.more a{
+    line-height: 40px;
+    color: #616161;
+}
+.more a:hover{
+    color: #333333;
+    text-decoration: none;
+}

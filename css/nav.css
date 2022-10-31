@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* 顶部导航 */
+    /* 左侧logo */
+.navbar-default{
+    background-color: transparent;
+    border-color: transparent;
+}
+.nav-logo{
+    width: 200px;
+    height: 100%;
+}
+
+    /*右侧导航*/
+.menu-ul{
+    text-align: center;
+
+}
+.menu-ul li a{
+    color: hsla(0,0%,100%,.65);
+}
+#sy{
+    color: #f2b535 !important;
+    border-bottom: 4px solid transparent;
+}
+.tc{
+    background-image: linear-gradient(90deg,#cddc39,#ff9800 25%,#cddc39 50%,#ff9800 75%,#cddc39);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-background-size: 198% 100%;
+    -webkit-animation: masked-animation 2s infinite linear!important;
+}
+@keyframes masked-animation {
+    0%{
+        background-position: 0% 0%;
+    }
+    0%{
+        background-position: 50% 0%;
+    }
+    0%{
+        background-position: 100% 0%;
+    }
+}
+.tc img{
+    width: 16px;
+    height: 16px;
+}
+@media (min-width:992px) {
+    .nav-right{
+        float: right;
+        width: 60%;
+        height: 50px;
+    }
+    .menu{
+        display: none;
+    }
+    .menu-ul{
+        display: block!important;
+    }
+    .menu-ul>li{
+        float: left;
+        line-height: 50px;
+        padding: 0 5px;
+    }
+    .menu-ul>li>a:hover{
+        text-decoration: none;
+    }
+    .menu-ul>li>a:focus{
+        text-decoration: none;
+    }
+    #sy{
+        padding-bottom: 20px;
+    }
+}
+@media (max-width:991px) {
+    .nav-right{
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        right: 0;
+    }
+    .glyphicon{
+        color: white;
+    }
+    .menu{
+        width: 10%;
+        height: 50px;
+        line-height: 50px;
+        display: block;
+        position: fixed;
+        right: 10%
+    }
+    .menu-ul{
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        background-color: black;
+    }
+    .menu-ul>li:hover>a{
+        color: #f2b535;
+    }
+    .menu-ul>li>a:hover{
+        text-decoration: none;
+    }
+    .menu-ul>li>a:focus{
+        text-decoration: none;
+    }
+}

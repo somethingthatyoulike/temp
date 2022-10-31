@@ -1,0 +1,54 @@
+.carousel-indicators li{
+    width: 50px;
+    height: 4px;
+    opacity: 0.5;
+    background-color: white !important;
+}
+.carousel-indicators .active{
+    width: 50px;
+    height: 4px;
+    opacity: 1;
+    transition: all 0.2s;
+    transform: scale(1.1);
+}
+.item{
+    position: relative;
+}
+.i1left{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    font-size: 25px;
+    color: hsla(0, 0%, 100%, 0.8);
+}
+.i1right{
+    position: absolute;
+    right: 5%;
+    bottom: 20%;
+    font-size: 20px;
+    color: hsla(0, 0%, 100%, 0.8);
+}
+.i3top{
+    position: absolute;
+    bottom: 20%;
+    font-size: 20px;
+    color: hsla(0, 0%, 100%, 0.8);
+}
+.i3bottom{
+    position: absolute;
+    bottom: 10%;
+    font-size: 20px;
+    color: hsla(0, 0%, 100%, 0.8);
+}
+.i4top{
+    position: absolute;
+    bottom: 25%;
+    font-size: 20px;
+    color: hsla(0, 0%, 100%, 0.8);
+}
+.i4bottom{
+    position: absolute;
+    bottom: 15%;
+    font-size: 20px;
+    color: hsla(0, 0%, 100%, 0.8);
+}

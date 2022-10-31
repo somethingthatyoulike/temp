@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    width: 855px;
+    margin: 0 auto;
+    height: 290px;
+    background: url(../img/course01.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.top>.col-md-9{
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    color: greenyellow;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.top>.col-md-3{
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.glyphicon{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+.bottom{
+    margin: 0 auto;
+    position: relative;
+    width: 855px;
+    height: 110px;
+    background-color: black;
+}
+.bi{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    margin-left: 0px;
+    float: left;
+}
+.bi1{
+    margin-left: 10px;
+    background: url(../img/course01.png);
+    background-size: 100% 100%;
+}
+.bi2{
+    background: url(../img/course02.png);
+    background-size: 100% 100%;
+}
+.bi3{
+    background: url(../img/course03.png);
+    background-size: 100% 100%;
+}
+.bi4{
+    background: url(../img/course04.png);
+    background-size: 100% 100%;
+}
+.bi5{
+    background: url(../img/course05.png);
+    background-size: 100% 100%;
+}
+.bi6{
+    background: url(../img/course06.png);
+    background-size: 100% 100%;
+}
+.bi7{
+    background: url(../img/course07.png);
+    background-size: 100% 100%;
+}
+.bi8{
+    background: url(../img/course08.png);
+    background-size: 100% 100%;
+}
+.bi-appear{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.bi-disappear{
+    background-color: rgba(0, 0, 0, 0);
+}
+.gr{
+    width: 100px;
+    height: 5px;
+    background-color: greenyellow;
+    position: absolute;
+    bottom: 0px;
+}
